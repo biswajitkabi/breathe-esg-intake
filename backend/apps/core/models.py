@@ -25,6 +25,19 @@ class User(AbstractUser):
     )
     role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='ANALYST')
 
+    groups = models.ManyToManyField(
+        'auth.Group',
+        blank=True,
+        related_name='core_user_set',
+        related_query_name='core_user',
+    )
+    user_permissions = models.ManyToManyField(
+        'auth.Permission',
+        blank=True,
+        related_name='core_user_set',
+        related_query_name='core_user',
+    )
+
     def __str__(self):
         return f"{self.username} ({self.tenant})"
 
