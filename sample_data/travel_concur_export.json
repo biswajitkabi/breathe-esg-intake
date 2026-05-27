@@ -1,0 +1,224 @@
+{
+  "export_date": "2024-06-01",
+  "company": "Demo Corp",
+  "trips": [
+    {
+      "trip_id": "TRIP-001",
+      "employee_id": "EMP-101",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "LHR",
+          "destination_iata": "JFK",
+          "cabin_class": "BUSINESS",
+          "departure_date": "2024-01-10"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-01-10",
+          "check_out": "2024-01-14",
+          "city": "New York",
+          "country": "US"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "TAXI",
+          "distance_km": 35,
+          "date": "2024-01-10"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "JFK",
+          "destination_iata": "LHR",
+          "cabin_class": "BUSINESS",
+          "departure_date": "2024-01-14"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-002",
+      "employee_id": "EMP-102",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "LHR",
+          "destination_iata": "DXB",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-01-22"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-01-22",
+          "check_out": "2024-01-25",
+          "city": "Dubai",
+          "country": "AE"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "DXB",
+          "destination_iata": "LHR",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-01-25"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-003",
+      "employee_id": "EMP-103",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "CDG",
+          "destination_iata": "FRA",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-02-05"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "RAIL",
+          "distance_km": 120,
+          "date": "2024-02-05"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-02-05",
+          "check_out": "2024-02-07",
+          "city": "Frankfurt",
+          "country": "DE"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "FRA",
+          "destination_iata": "CDG",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-02-07"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-004",
+      "employee_id": "EMP-101",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "SFO",
+          "destination_iata": "ORD",
+          "cabin_class": "PREMIUM_ECONOMY",
+          "departure_date": "2024-02-18"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-02-18",
+          "check_out": "2024-02-22",
+          "city": "Chicago",
+          "country": "US"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "RENTAL",
+          "distance_km": 280,
+          "date": "2024-02-19"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "ORD",
+          "destination_iata": "SFO",
+          "cabin_class": "PREMIUM_ECONOMY",
+          "departure_date": "2024-02-22"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-005",
+      "employee_id": "EMP-104",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "BOM",
+          "destination_iata": "DEL",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-03-01"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-03-01",
+          "check_out": "2024-03-03",
+          "city": "Delhi",
+          "country": "IN"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "TAXI",
+          "distance_km": 25,
+          "date": "2024-03-01"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "DEL",
+          "destination_iata": "BOM",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-03-03"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-006",
+      "employee_id": "EMP-105",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "",
+          "destination_iata": "",
+          "cabin_class": "ECONOMY",
+          "departure_date": "2024-03-15"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-03-15",
+          "check_out": "2024-04-20",
+          "city": "Unknown",
+          "country": "XX"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "UNKNOWN",
+          "distance_km": 0,
+          "date": "2024-03-15"
+        }
+      ]
+    },
+    {
+      "trip_id": "TRIP-007",
+      "employee_id": "EMP-102",
+      "segments": [
+        {
+          "type": "AIR",
+          "origin_iata": "SYD",
+          "destination_iata": "MEL",
+          "cabin_class": "FIRST",
+          "departure_date": "2024-04-10"
+        },
+        {
+          "type": "GROUND",
+          "transport_type": "RIDESHARE",
+          "distance_km": 45,
+          "date": "2024-04-10"
+        },
+        {
+          "type": "HOTEL",
+          "check_in": "2024-04-10",
+          "check_out": "2024-04-12",
+          "city": "Melbourne",
+          "country": "AU"
+        },
+        {
+          "type": "AIR",
+          "origin_iata": "MEL",
+          "destination_iata": "SYD",
+          "cabin_class": "FIRST",
+          "departure_date": "2024-04-12"
+        }
+      ]
+    }
+  ]
+}
