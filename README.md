@@ -30,9 +30,9 @@ See `SOURCES.md` for full research notes.
 ---
 
 ## Architecture
-Frontend (React + Vite + Tailwind) → Vercel
-Backend (Django REST Framework)    → Railway
-Database (PostgreSQL)              → Neon
+- Frontend (React + Vite + Tailwind) → Vercel
+- Backend (Django REST Framework)    → Railway
+- Database (PostgreSQL)              → Neon
 
 ---
 
@@ -54,8 +54,8 @@ Full reasoning in `DECISIONS.md`, `MODEL.md`, `TRADEOFFS.md`.
 - **Backend:** https://breathe-esg-intake-production.up.railway.app
 
 **Login credentials:**
-username: admin
-password: Admin@123
+- username: admin
+- password: Admin@123
 
 ---
 
@@ -102,26 +102,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## Project Structure
-breathe-esg-intake/
-├── backend/
-│   ├── apps/
-│   │   ├── core/          # models, auth, audit
-│   │   ├── ingestion/     # parsers + upload API
-│   │   └── review/        # review dashboard API
-│   └── config/            # Django settings
-├── frontend/
-│   └── src/
-│       ├── pages/         # Dashboard, Upload, Records, Login
-│       └── components/    # StatCard, StatusBadge, ScopeBadge
-├── sample_data/           # realistic test files
-├── MODEL.md
-├── DECISIONS.md
-├── TRADEOFFS.md
-└── SOURCES.md
 
 ---
 
