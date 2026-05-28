@@ -60,7 +60,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-_
+
 DATABASES = {
     "default": dj_database_url.config(
         conn_max_age=600
